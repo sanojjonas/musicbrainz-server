@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-06-30 13:42+0000\n"
+"PO-Revision-Date: 2024-11-01 19:42+0000\n"
 "Last-Translator: yyb987 <yyb987@users.noreply.translations.metabrainz.org>\n"
 "Language-Team: Japanese <https://translations.metabrainz.org/projects/"
 "musicbrainz/statistics/ja/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: ../root/statistics/timeline.tt:19
 msgid "Add/remove lines:"
@@ -601,7 +601,7 @@ msgstr "女性"
 
 #: ../root/statistics/Index.js:308
 msgid "Non-binary"
-msgstr ""
+msgstr "ノンバイナリー"
 
 #: ../root/statistics/Index.js:319
 msgid "Other gender:"
@@ -628,8 +628,6 @@ msgid "by a single artist:"
 msgstr "シングルアーティスト:"
 
 #: ../root/statistics/Index.js:379
-#, fuzzy
-#| msgid "Release Status"
 msgid "Release status"
 msgstr "リリースステータス"
 
@@ -638,8 +636,6 @@ msgid "No status set"
 msgstr "未指定"
 
 #: ../root/statistics/Index.js:405
-#, fuzzy
-#| msgid "Release Packaging"
 msgid "Release packaging"
 msgstr "リリースパッケージング"
 
@@ -648,8 +644,6 @@ msgid "No packaging set"
 msgstr "未指定"
 
 #: ../root/statistics/Index.js:431
-#, fuzzy
-#| msgid "Cover Art Sources"
 msgid "Cover art sources"
 msgstr "カバーアートのソース"
 
@@ -666,32 +660,22 @@ msgid "Data quality"
 msgstr "データ品質"
 
 #: ../root/statistics/Index.js:463 ../root/statistics/stats.js:598
-#, fuzzy
-#| msgid "High Data Quality"
 msgid "High data quality"
 msgstr "高いデータ品質"
 
 #: ../root/statistics/Index.js:471
-#, fuzzy
-#| msgid "Default Data Quality:"
 msgid "Default data quality"
-msgstr "デフォルトのデータ品質:"
+msgstr "デフォルトのデータ品質"
 
 #: ../root/statistics/Index.js:479 ../root/statistics/stats.js:608
-#, fuzzy
-#| msgid "Normal Data Quality"
 msgid "Normal data quality"
 msgstr "標準のデータ品質"
 
 #: ../root/statistics/Index.js:486 ../root/statistics/stats.js:613
-#, fuzzy
-#| msgid "Unknown Data Quality"
 msgid "Unknown data quality"
 msgstr "データ品質が不明"
 
 #: ../root/statistics/Index.js:495 ../root/statistics/stats.js:603
-#, fuzzy
-#| msgid "Low Data Quality"
 msgid "Low data quality"
 msgstr "低いデータ品質"
 
@@ -721,8 +705,6 @@ msgid "Mediums with at least one disc ID:"
 msgstr "ディスクIDが少なくとも1つあるメディア:"
 
 #: ../root/statistics/Index.js:603
-#, fuzzy
-#| msgid "Primary Types"
 msgid "Primary types"
 msgstr "一次タイプ"
 
@@ -767,20 +749,16 @@ msgid "Attributes"
 msgstr "属性"
 
 #: ../root/statistics/Index.js:930
-#, fuzzy
-#| msgid "Events"
 msgid "Event art"
-msgstr "イベント"
+msgstr "イベントアート"
 
 #: ../root/statistics/Index.js:939
 msgid "With EAA poster art:"
 msgstr ""
 
 #: ../root/statistics/Index.js:945
-#, fuzzy
-#| msgid "No front cover art:"
 msgid "No poster art:"
-msgstr "カバーアートがない:"
+msgstr "ポスターアートがない:"
 
 #: ../root/statistics/Index.js:965
 msgid "Of releases"
@@ -1241,20 +1219,16 @@ msgid "Artists with no country set"
 msgstr ""
 
 #: ../root/statistics/stats.js:80
-#, fuzzy
-#| msgid "Female Artists"
 msgid "Female artists"
 msgstr "女性アーティスト"
 
 #: ../root/statistics/stats.js:85
-#, fuzzy
-#| msgid "Male Artists"
 msgid "Male artists"
 msgstr "男性アーティスト"
 
 #: ../root/statistics/stats.js:90
 msgid "Non-binary Artists"
-msgstr ""
+msgstr "ノンバイナリーアーティスト"
 
 #: ../root/statistics/stats.js:95
 #, fuzzy

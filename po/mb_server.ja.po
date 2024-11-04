@@ -45,7 +45,7 @@ msgstr ""
 "Project-Id-Version: MusicBrainz\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-21 13:22+0000\n"
-"PO-Revision-Date: 2024-07-04 15:42+0000\n"
+"PO-Revision-Date: 2024-11-04 15:42+0000\n"
 "Last-Translator: yyb987 <yyb987@users.noreply.translations.metabrainz.org>\n"
 "Language-Team: Japanese <https://translations.metabrainz.org/projects/"
 "musicbrainz/server/ja/>\n"
@@ -54,7 +54,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: ../root/components/common-macros.tt:12
 msgid " ({text})"
@@ -168,18 +168,13 @@ msgid "<strong>Warning</strong>:"
 msgstr "<strong>警告</strong>:"
 
 #: ../root/cdtoc/lookup.tt:22
-#, fuzzy
-#| msgid ""
-#| "A CD Stub was found that matches the disc ID you provided. If the below "
-#| "tracklist appears correct, you may use it as a starting point as a new "
-#| "MusicBrainz release"
 msgid ""
 "A CD stub was found that matches the disc ID you provided. If the below "
 "tracklist appears correct, you may use it as a starting point for a new "
 "MusicBrainz release."
 msgstr ""
-"提出したディスクIDはCDスタブとマッチしました。以下のトラックリストは正しそう"
-"であれば、新しいMusicBrainzリリースの起点として使えます。"
+"提出したディスクIDはCDスタブと一致しました。以下のトラックリストは正しそうで"
+"あれば、新しいMusicBrainzリリースの起点として使えます。"
 
 #: ../root/release/edit/tracklist.tt:323
 msgid ""
@@ -205,31 +200,21 @@ msgid "Accept"
 msgstr "承認"
 
 #: ../root/artist/edit_form.tt:29 ../root/label/edit_form.tt:32
-#, fuzzy
-#| msgid "IPI code"
 msgctxt "interactive"
 msgid "Add IPI code"
-msgstr "IPI コード"
+msgstr "IPIコードを追加"
 
 #: ../root/artist/edit_form.tt:36 ../root/label/edit_form.tt:39
-#, fuzzy
-#| msgid "ISNI code"
 msgctxt "interactive"
 msgid "Add ISNI code"
-msgstr "ISNIコード"
+msgstr "ISNIコードを追加"
 
 #: ../root/recording/edit_form.tt:45
-#, fuzzy
-#| msgctxt "edit type"
-#| msgid "Add ISRCs"
 msgctxt "interactive"
 msgid "Add ISRC"
 msgstr "ISRCを追加"
 
 #: ../root/work/edit_form.tt:16
-#, fuzzy
-#| msgctxt "edit type"
-#| msgid "Add ISWCs"
 msgctxt "interactive"
 msgid "Add ISWC"
 msgstr "ISWCを追加"
@@ -10071,20 +10056,14 @@ msgid "Contact us"
 msgstr "お問い合わせ"
 
 #: ../root/layout/components/BottomMenu.js:125
-#, fuzzy
-#| msgid "Data Licenses"
 msgid "Data licenses"
-msgstr "データのライセンス"
+msgstr "データライセンス"
 
 #: ../root/layout/components/BottomMenu.js:128
-#, fuzzy
-#| msgid "Social Contract"
 msgid "Social contract"
 msgstr "社会契約"
 
 #: ../root/layout/components/BottomMenu.js:131
-#, fuzzy
-#| msgid "Code of Conduct"
 msgid "Code of Conduct"
 msgstr "行動規範"
 
@@ -10098,7 +10077,7 @@ msgstr "GDPRコンプライアンス"
 
 #: ../root/layout/components/BottomMenu.js:141
 msgid "Copyright and DMCA compliance"
-msgstr ""
+msgstr "著作権およびDMCAコンプライアンス"
 
 #: ../root/layout/components/BottomMenu.js:145
 msgid "Data removal policy"
@@ -11054,16 +11033,12 @@ msgstr ""
 "MusicBrainzを利用したアプリケーションを作りましょう。"
 
 #: ../root/main/index.js:250
-#, fuzzy
-#| msgid "How to add releases"
 msgid "Recently added releases"
-msgstr "リリースの追加方法"
+msgstr "最近追加されたリリース"
 
 #: ../root/main/index.js:265
-#, fuzzy
-#| msgid "Release events"
 msgid "Recently added events"
-msgstr "リリースイベント"
+msgstr "最近追加されたイベント"
 
 #: ../root/mbid/NotFound.js:15
 msgid "MBID not found"
@@ -16021,11 +15996,11 @@ msgstr "このページを見るため、ログインしてください。"
 
 #: ../root/user/Login.js:56
 msgid "Don't have an account? {uri|Create one now}!"
-msgstr "アカウント登録がまだの場合は{uri|こちらへ作成}。"
+msgstr "アカウント登録がまだの場合は{uri|こちらで作成}。"
 
 #: ../root/user/Login.js:67
 msgid "Incorrect username or password"
-msgstr "ユーザー名もしくはパスワードが無効でした。"
+msgstr "ユーザー名もしくはパスワードが間違っています"
 
 #: ../root/user/Login.js:77
 msgid ""

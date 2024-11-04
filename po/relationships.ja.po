@@ -16,12 +16,12 @@
 # julian45 <techieboy45@gmail.com>, 2023.
 # reosarevok <reosarevok@users.noreply.translations.metabrainz.org>, 2024.
 # tkusano <tkusano@users.noreply.translations.metabrainz.org>, 2024.
+# yyb987 <yyb987@users.noreply.translations.metabrainz.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz\n"
-"PO-Revision-Date: 2024-08-13 15:42+0000\n"
-"Last-Translator: tkusano <tkusano@users.noreply.translations.metabrainz."
-"org>\n"
+"PO-Revision-Date: 2024-11-01 19:42+0000\n"
+"Last-Translator: yyb987 <yyb987@users.noreply.translations.metabrainz.org>\n"
 "Language-Team: Japanese <https://translations.metabrainz.org/projects/"
 "musicbrainz/relationship-types/ja/>\n"
 "Language: ja\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #. name:artist diploma
 #: DB:link_attribute_type/description:1355
@@ -132,7 +132,7 @@ msgstr "Apple Music"
 #. name:apple music
 #: DB:link_type/reverse_link_phrase:1131 DB:link_type/reverse_link_phrase:1130
 msgid "Apple Music page for"
-msgstr ""
+msgstr "次のApple Musicページ"
 
 #. name:BBC Music page
 #: DB:link_type/link_phrase:190
@@ -1339,7 +1339,7 @@ msgstr "このリリースのBookBrainzページを指します。"
 #. name:BookBrainz
 #: DB:link_type/description:1167
 msgid "Points to the BookBrainz page for this series."
-msgstr ""
+msgstr "このシリーズのBookBrainzページを指します。"
 
 #. name:BookBrainz
 #: DB:link_type/description:854
@@ -1354,7 +1354,7 @@ msgstr "この地域のGeonamesページを指します。"
 #. name:geonames
 #: DB:link_type/description:934
 msgid "Points to the Geonames page for this place."
-msgstr "この場所の Geonames ページを指す。"
+msgstr "この場所のGeonamesページを指します。"
 
 #. name:IMDb
 #: DB:link_type/description:706
@@ -1363,133 +1363,83 @@ msgstr "この場所のInternet Moive Databaseページを指します。"
 
 #. name:wikidata
 #: DB:link_type/description:358
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this area, and will be used to fetch "
 "Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "この地域のWikidata "
+"ページを指し、Wikipediaでの要約と画像を取得するために使用される。"
 
 #. name:wikidata
 #: DB:link_type/description:352
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this artist, and will be used to fetch "
 "Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "このアーティストのWikidata "
+"ページを指し、Wikipediaでの要約と画像を取得するために使用される。"
 
 #. name:wikidata
 #: DB:link_type/description:790
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this event, and will be used to fetch "
 "Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "このイベントのWikidataページを指し、Wikipediaでの要約と画像を取得するために使"
+"用される。"
 
 #. name:wikidata
 #: DB:link_type/description:1087
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this genre, and will be used to fetch "
 "Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "このジャンルのWikidataページを指し、Wikipediaでの要約と画像を取得するために使"
+"用される。"
 
 #. name:wikidata
 #: DB:link_type/description:733
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this instrument, and will be used to fetch "
 "Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "この楽器のWikidataページを指し、Wikipediaでの要約と画像を取得するために使用さ"
+"れる。"
 
 #. name:wikidata
 #: DB:link_type/description:354
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this label, and will be used to fetch "
 "Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "このレーベルのWikidataページを指し、Wikipediaでの要約と画像を取得するために使"
+"用される。"
 
 #. name:wikidata
 #: DB:link_type/description:594
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this place, and will be used to fetch "
 "Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "この場所のWikidataページを指し、Wikipediaでの要約と画像を取得するために使用さ"
+"れる。"
 
 #. name:wikidata
 #: DB:link_type/description:353
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this release group, and will be used to "
 "fetch Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "このリリースグループのWikidataページを指し、Wikipediaでの要約と画像を取得する"
+"ために使用される。"
 
 #. name:wikidata
 #: DB:link_type/description:749
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this series, and will be used to fetch "
 "Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "このシリーズのWikidataページを指し、Wikipediaでの要約と画像を取得するために使"
+"用される。"
 
 #. name:wikidata
 #: DB:link_type/description:351
-#, fuzzy
-#| msgid ""
-#| "Points to the Wikidata page for this release group, and will be used to "
-#| "fetch Wikipedia summaries"
 msgid ""
 "Points to the Wikidata page for this work, and will be used to fetch "
 "Wikipedia summaries."
-msgstr ""
-"このリリースグループでの Wikidata ページを指し、Wikipedia での要約と画像を取"
-"得するために使用される"
+msgstr "この作品のWikidataページを指し、Wikipediaでの要約と画像を取得するために使用さ"
+"れる。"
 
 #. name:wikipedia
 #: DB:link_type/description:89
@@ -1514,21 +1464,17 @@ msgstr "このイベントのWikipediaページを指します。"
 #. name:wikipedia
 #: DB:link_type/description:731
 msgid "Points to the Wikipedia page for this instrument."
-msgstr "この楽器での Wikidata ページを指す。"
+msgstr "この楽器のWikidataページを指します。"
 
 #. name:wikipedia
 #: DB:link_type/description:216
-#, fuzzy
-#| msgid "Points to the Wikipedia page for this place"
 msgid "Points to the Wikipedia page for this label."
-msgstr "この場所のWikipediaページを指します"
+msgstr "このレーベルのWikipediaページを指します。"
 
 #. name:wikipedia
 #: DB:link_type/description:595
-#, fuzzy
-#| msgid "Points to the Wikipedia page for this place"
 msgid "Points to the Wikipedia page for this place."
-msgstr "この場所のWikipediaページを指します"
+msgstr "この場所のWikipediaページを指します。"
 
 #. name:wikipedia
 #: DB:link_type/description:744
@@ -2836,19 +2782,14 @@ msgstr "これは、このリリースで演奏した合唱団のコーラスマ
 
 #. name:glass mastered
 #: DB:link_type/description:955
-#, fuzzy
-#| msgid ""
-#| "This indicates the company that made the glass master for a release. This "
-#| "is <strong>not</strong> the same concept as the <a href=\"/doc/"
-#| "Label\">record label</a>, nor as mastering engineering."
 msgid ""
 "This indicates the company that made the glass master for a release. This is "
 "<strong>not</strong> the same concept as the <a href=\"/doc/Label\" "
 "target=\"_blank\">record label</a>, nor as mastering engineering."
 msgstr ""
 "これは、リリース用のガラスマスターを作成した会社を示しています。 これは、<a "
-"href=\"/doc/Label\">レコードレーベル</a>やマスタリングエンジニアリングと同じ"
-"概念<strong>ではない</strong>。"
+"href=\"/doc/Label\" target=\"_blank\">レコードレーベル</a>やマスタリングエン"
+"ジニアリングと同じ概念<strong>ではない</strong>。"
 
 #. name:owner
 #: DB:link_type/description:989
@@ -4528,13 +4469,6 @@ msgstr ""
 
 #. name:VIAF
 #: DB:link_type/description:1001
-#, fuzzy
-#| msgid ""
-#| "This points to the <a href=\"//viaf.org/\">VIAF</a> page for this artist. "
-#| "VIAF is an international project to make a common authority file "
-#| "available to libraries across the world. An authority file is similar to "
-#| "an MBID for libraries. (<a href=\"//en.wikipedia.org/wiki/"
-#| "Virtual_International_Authority_File\">more information on Wikipedia</a>)"
 msgid ""
 "This points to the <a href=\"//viaf.org/\">VIAF</a> page for this series. "
 "VIAF is an international project to make a common authority file available "
@@ -4542,11 +4476,10 @@ msgid ""
 "libraries (<a href=\"//en.wikipedia.org/wiki/"
 "Virtual_International_Authority_File\">more information on Wikipedia</a>)."
 msgstr ""
-"これは、このアーティストの<a href=\"//viaf.org/\">VIAF</a>ページを指す。 VIAF"
-"は、世界中の図書館が共通の典拠ファイルを利用できるようにする国際的なプロジェ"
-"クトである。 典拠ファイルは、図書館のMBIDと類似する （<a href=\"//en."
-"wikipedia.org/wiki/Virtual_International_Authority_File\">Wikipedia の詳細</"
-"a>）。"
+"これは、このシリーズの<a href=\"//viaf.org/\">VIAF</a>ページを指す。 VIAFは、"
+"世界中の図書館が共通の典拠ファイルを利用できるようにする国際的なプロジェクト"
+"である。 典拠ファイルは、図書館のMBIDと類似する （<a href=\"//en.wikipedia."
+"org/wiki/Virtual_International_Authority_File\">Wikipedia の詳細</a>）。"
 
 #. name:VIAF
 #: DB:link_type/description:312
@@ -6652,7 +6585,7 @@ msgstr "次のディスコグラフィー項目"
 
 #: DB:link_type/name:184
 msgid "discography page"
-msgstr ""
+msgstr "ディスコグラフィーページ"
 
 #. name:discography page
 #: DB:link_type/reverse_link_phrase:184
