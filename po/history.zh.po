@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-10-06 23:42+0000\n"
-"Last-Translator: \"3035134331@qq.com\" <3035134331@qq.com>\n"
+"PO-Revision-Date: 2024-11-03 12:42+0000\n"
+"Last-Translator: Awu05 <awu055@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translations."
 "metabrainz.org/projects/musicbrainz/history/zh_Hans/>\n"
 "Language: zh\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: DB:statistics.statistic_event/title:2015-09-08
 msgid "\"Do Not Cluster\" guideline dropped"
@@ -244,8 +244,9 @@ msgid ""
 msgstr "艺术家关注公开化和多种较小用户体验改进发布。"
 
 #: DB:statistics.statistic_event/description:2003-06-22
+#, fuzzy
 msgid "Artist subscriptions."
-msgstr ""
+msgstr "订阅的艺术家。"
 
 #: DB:statistics.statistic_event/description:2017-04-11
 msgid ""
@@ -259,16 +260,18 @@ msgid "BBC dynamic artist pages"
 msgstr ""
 
 #: DB:statistics.statistic_event/description:2008-07-30
+#, fuzzy
 msgid "BBC launches the dynamic artist pages based on MusicBrainz data."
-msgstr ""
+msgstr "BBC在MusicBrainz数据的基础上启动了动态艺术家页面"
 
 #: DB:statistics.statistic_event/title:2007-06-28
+#, fuzzy
 msgid "BBC partners with MetaBrainz"
-msgstr ""
+msgstr "BBC与MusicBrainz合作"
 
 #: DB:statistics.statistic_event/title:2018-09-10
 msgid "BookBrainz becomes official MetaBrainz project"
-msgstr ""
+msgstr "BookBrainz成为了MetaBrainz的官方项目"
 
 #: DB:statistics.statistic_event/title:2012-04-30
 msgid "CAA initial release"
