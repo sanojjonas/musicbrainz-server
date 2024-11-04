@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz\n"
-"PO-Revision-Date: 2024-09-15 00:42+0000\n"
+"PO-Revision-Date: 2024-11-03 18:42+0000\n"
 "Last-Translator: Vaclovas Intas <gateway_31@protonmail.com>\n"
 "Language-Team: Lithuanian <https://translations.metabrainz.org/projects/"
 "musicbrainz/relationship-types/lt/>\n"
@@ -17,9 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
-"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
-"1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Weblate 5.7.2\n"
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
+" n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. name:artist diploma
 #: DB:link_attribute_type/description:1355
@@ -2647,17 +2647,13 @@ msgstr ""
 
 #. name:named after artist
 #: DB:link_type/description:1260
-#, fuzzy
-#| msgid "This indicates the artist was the owner of this label."
 msgid "This indicates the artist that inspired this genre’s name."
-msgstr "Tai nurodo, kad atlikėjas buvo šios leidyklos savininkas."
+msgstr "Tai nurodo atlikėją, kuris paskatino šio žanro pavadinimą."
 
 #. name:named after artist
 #: DB:link_type/description:1258
-#, fuzzy
-#| msgid "This indicates the artist was the owner of this label."
 msgid "This indicates the artist that inspired this label’s name."
-msgstr "Tai nurodo, kad atlikėjas buvo šios leidyklos savininkas."
+msgstr "Tai nurodo atlikėją, kuris paskatino šios leidyklos pavadinimą."
 
 #. name:named after artist
 #: DB:link_type/description:975
@@ -2673,10 +2669,8 @@ msgstr ""
 
 #. name:named after artist
 #: DB:link_type/description:1257
-#, fuzzy
-#| msgid "This indicates the artist was the owner of this label."
 msgid "This indicates the artist that inspired this work’s name."
-msgstr "Tai nurodo, kad atlikėjas buvo šios leidyklos savininkas."
+msgstr "Tai nurodo atlikėją, kuris paskatino šio kūrinio pavadinimą."
 
 #. name:audio director
 #: DB:link_type/description:1186
@@ -2687,6 +2681,11 @@ msgid ""
 "project (such as an audio drama or audiobook), which is usually based on a "
 "written template and involves the performance of voice actors."
 msgstr ""
+"Tai nurodo, kad atlikėjas buvo šio įrašo garso režisierius.\n"
+"\n"
+"Tai – atlikėjas, atsakingas už kūrybinį garso projekto įgyvendinimą ("
+"pavyzdžiui, garso dramos ar garsaknygės), kuris paprastai yra paremtas "
+"rašytiniu šablonu ir kuriame dalyvauja balso aktoriai."
 
 #. name:audio director
 #: DB:link_type/description:1187
@@ -2783,17 +2782,13 @@ msgstr ""
 
 #. name:named after label
 #: DB:link_type/description:1259
-#, fuzzy
-#| msgid "This indicates the artist was the owner of this label."
 msgid "This indicates the label that inspired this artist’s name."
-msgstr "Tai nurodo, kad atlikėjas buvo šios leidyklos savininkas."
+msgstr "Tai nurodo leidyklą, kuri paskatino šio atlikėjo vardą."
 
 #. name:named after label
 #: DB:link_type/description:1264
-#, fuzzy
-#| msgid "This indicates the artist was the owner of this label."
 msgid "This indicates the label that inspired this genre’s name."
-msgstr "Tai nurodo, kad atlikėjas buvo šios leidyklos savininkas."
+msgstr "Tai nurodo leidyklą, kuri paskatino šio žanro pavadinimą."
 
 #. name:translator
 #: DB:link_attribute_type/description:1018
@@ -2801,6 +2796,7 @@ msgid ""
 "This indicates the linked entity translated something, rather than being the "
 "original writer."
 msgstr ""
+"Tai nurodo, kad susieta esybė kažką išvertė, o ne buvo originalo rašytojas."
 
 #. name:distributed
 #: DB:link_type/description:361
@@ -2989,10 +2985,8 @@ msgstr ""
 
 #. name:named after release group
 #: DB:link_type/description:1261
-#, fuzzy
-#| msgid "Indicates that the release group is part of a series."
 msgid "This indicates the release group that inspired this genre’s name."
-msgstr "Nurodo, kad leidinių grupė yra serijos dalis."
+msgstr "Tai nurodo leidinių grupę, kuri paskatino šio žanro pavadinimą."
 
 #. name:rights society
 #: DB:link_type/description:349
@@ -3000,11 +2994,13 @@ msgid ""
 "This indicates the rights society associated with a release. The rights "
 "society is an organization which collects royalties on behalf of the artists."
 msgstr ""
+"Tai nurodo teisių organizaciją, susijusią su leidiniu. Teisių organizacija – "
+"tai organizacija, kuri atlikėjų labui renka honorarus."
 
 #. name:video shot at
 #: DB:link_type/description:963
 msgid "This indicates the video was shot at this place."
-msgstr ""
+msgstr "Tai nurodo, kad vaizdo įrašas buvo nufilmuotas šioje vietoje."
 
 #. name:video shot at
 #: DB:link_type/description:966
@@ -7075,48 +7071,48 @@ msgstr ""
 #: DB:link_type/link_phrase:734 DB:link_type/reverse_link_phrase:734
 #: DB:link_type/long_link_phrase:734
 msgid "information page"
-msgstr ""
+msgstr "informacijos puslapis"
 
 #. name:named after artist, name:named after label, name:named after release group, name:named after work
 #: DB:link_type/reverse_link_phrase:973 DB:link_type/reverse_link_phrase:972
 #: DB:link_type/reverse_link_phrase:1259 DB:link_type/reverse_link_phrase:974
 msgid "inspired the name of artist"
-msgstr ""
+msgstr "paskatino atlikėjo vardą"
 
 #. name:named after area, name:named after artist, name:named after label, name:named after place, name:named after release group
 #: DB:link_type/link_phrase:1260 DB:link_type/link_phrase:1262
 #: DB:link_type/reverse_link_phrase:1261 DB:link_type/reverse_link_phrase:1264
 #: DB:link_type/reverse_link_phrase:1263
 msgid "inspired the name of genre"
-msgstr ""
+msgstr "paskatino žanro pavadinimą"
 
 #. name:named after artist, name:named after work
 #: DB:link_type/link_phrase:1258 DB:link_type/reverse_link_phrase:1265
 msgid "inspired the name of label"
-msgstr ""
+msgstr "paskatino leidyklos pavadinimą"
 
 #. name:named after artist
 #: DB:link_type/link_phrase:975
 msgid "inspired the name of place"
-msgstr ""
+msgstr "paskatino vietos pavadinimą"
 
 #. name:named after artist
 #: DB:link_type/link_phrase:1000
 msgid "inspired the name of series"
-msgstr ""
+msgstr "paskatino serijos pavadinimą"
 
 #. name:named after artist
 #: DB:link_type/link_phrase:1257
 msgid "inspired the name of work"
-msgstr ""
+msgstr "paskatino kūrinio pavadinimą"
 
 #: DB:link_attribute_type/name:14 DB:link_type/name:44 DB:link_type/name:148
 msgid "instrument"
-msgstr ""
+msgstr "instrumentas"
 
 #: DB:link_type/name:158 DB:link_type/name:41 DB:link_type/name:282
 msgid "instrument arranger"
-msgstr ""
+msgstr "instrumentų aranžuotojas"
 
 #: DB:link_type/name:752
 msgid "instrument origin"
@@ -7151,7 +7147,7 @@ msgstr "išverstos versijos"
 #. name:instrument origin
 #: DB:link_type/link_phrase:752
 msgid "instruments"
-msgstr ""
+msgstr "instrumentai"
 
 #: DB:link_type/name:707
 msgid "interview"
@@ -7296,38 +7292,28 @@ msgstr ""
 
 #. name:named after artist
 #: DB:link_type/long_link_phrase:973
-#, fuzzy
-#| msgid "named after"
 msgid "is named after artist"
-msgstr "pavadintas pagal"
+msgstr "yra pavadintas pagal atlikėją"
 
 #. name:named after label
 #: DB:link_type/long_link_phrase:1259 DB:link_type/long_link_phrase:1264
-#, fuzzy
-#| msgid "named after"
 msgid "is named after label"
-msgstr "pavadintas pagal"
+msgstr "yra pavadintas pagal leidyklą"
 
 #. name:named after place
 #: DB:link_type/long_link_phrase:1263
-#, fuzzy
-#| msgid "named after"
 msgid "is named after place"
-msgstr "pavadintas pagal"
+msgstr "yra pavadintas pagal vietą"
 
 #. name:named after release group
 #: DB:link_type/long_link_phrase:1261 DB:link_type/long_link_phrase:974
-#, fuzzy
-#| msgid "is the earliest release of"
 msgid "is named after release group"
-msgstr "yra anksčiausias leidinys"
+msgstr "yra pavadintas pagal leidinių grupę"
 
 #. name:named after work
 #: DB:link_type/long_link_phrase:972 DB:link_type/long_link_phrase:1265
-#, fuzzy
-#| msgid "named after"
 msgid "is named after work"
-msgstr "pavadintas pagal"
+msgstr "yra pavadintas pagal kūrinį"
 
 #: DB:link_type/name:108
 msgid "is person"
@@ -7341,7 +7327,7 @@ msgstr "yra susiję su"
 #. name:based on
 #: DB:link_type/link_phrase:314 DB:link_type/long_link_phrase:314
 msgid "is the basis for"
-msgstr ""
+msgstr "yra pagrindas"
 
 #. name:first track release
 #: DB:link_type/long_link_phrase:238
@@ -7351,12 +7337,12 @@ msgstr "yra anksčiausias leidinys"
 #. name:other version
 #: DB:link_type/long_link_phrase:241
 msgid "is the earliest version of {translated} {parody}"
-msgstr ""
+msgstr "yra anksčiausia {translated:išverstos} {parody:parodijos} versija"
 
 #. name:transl-tracklisting
 #: DB:link_type/long_link_phrase:2
 msgid "is the original for the transliterated/translated track listing"
-msgstr ""
+msgstr "yra transliteruotos / išverstos takelių sąrašo originalas"
 
 #. name:rights society
 #: DB:link_type/long_link_phrase:349
@@ -7980,17 +7966,17 @@ msgstr "muzikos terapija"
 
 #: DB:link_type/name:857
 msgid "music video"
-msgstr "muzikinis vaizdo įrašas"
+msgstr "muzikos vaizdo įrašas"
 
 #. name:music video
 #: DB:link_type/reverse_link_phrase:857
 msgid "music video for"
-msgstr "muzikinis vaizdo įrašas, skirtas"
+msgstr "muzikos vaizdo įrašas, skirtas"
 
 #. name:music video
 #: DB:link_type/link_phrase:857
 msgid "music videos"
-msgstr "muzikiniai vaizdo įrašai"
+msgstr "muzikos vaizdo įrašai"
 
 #: DB:link_type/name:1046
 msgid "musical quotation"
@@ -8020,10 +8006,8 @@ msgstr "myspace"
 
 #. name:named after area
 #: DB:link_type/name:1262 DB:link_type/reverse_link_phrase:1262
-#, fuzzy
-#| msgid "named after"
 msgid "named after area"
-msgstr "pavadintas pagal"
+msgstr "pavadintas pagal teritoriją"
 
 #. name:named after artist
 #: DB:link_type/name:973 DB:link_type/name:1258 DB:link_type/name:1260
@@ -8031,33 +8015,25 @@ msgstr "pavadintas pagal"
 #: DB:link_type/link_phrase:973 DB:link_type/reverse_link_phrase:1258
 #: DB:link_type/reverse_link_phrase:1260 DB:link_type/reverse_link_phrase:1257
 #: DB:link_type/reverse_link_phrase:975 DB:link_type/reverse_link_phrase:1000
-#, fuzzy
-#| msgid "named after"
 msgid "named after artist"
-msgstr "pavadintas pagal"
+msgstr "pavadintas pagal atlikėją"
 
 #. name:named after label
 #: DB:link_type/name:1259 DB:link_type/name:1264 DB:link_type/link_phrase:1259
 #: DB:link_type/link_phrase:1264
-#, fuzzy
-#| msgid "named after"
 msgid "named after label"
-msgstr "pavadintas pagal"
+msgstr "pavadintas pagal leidyklą"
 
 #. name:named after place
 #: DB:link_type/name:1263 DB:link_type/link_phrase:1263
-#, fuzzy
-#| msgid "named after"
 msgid "named after place"
-msgstr "pavadintas pagal"
+msgstr "pavadintas pagal vietą"
 
 #. name:named after release group
 #: DB:link_type/name:1261 DB:link_type/name:974 DB:link_type/link_phrase:1261
 #: DB:link_type/link_phrase:974
-#, fuzzy
-#| msgid "later releases"
 msgid "named after release group"
-msgstr "vėlesni leidiniai"
+msgstr "pavadintas pagal leidinių grupę"
 
 #. name:named after work
 #: DB:link_type/name:972 DB:link_type/name:1265 DB:link_type/link_phrase:972
@@ -10893,10 +10869,8 @@ msgstr "{entity1} būstinė yra {entity0}"
 #: DB:link_type/long_link_phrase:1258 DB:link_type/long_link_phrase:1260
 #: DB:link_type/long_link_phrase:1257 DB:link_type/long_link_phrase:975
 #: DB:link_type/long_link_phrase:1000
-#, fuzzy
-#| msgid "{entity1} is headquartered in {entity0}"
 msgid "{entity1} is named after artist {entity0}"
-msgstr "{entity1} būstinė yra {entity0}"
+msgstr "{entity1} yra pavadintas pagal atlikėją {entity0}"
 
 #. name:anthem
 #: DB:link_type/long_link_phrase:357
