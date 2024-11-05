@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz\n"
-"PO-Revision-Date: 2024-11-04 23:42+0000\n"
+"PO-Revision-Date: 2024-11-05 08:42+0000\n"
 "Last-Translator: Vaclovas Intas <gateway_31@protonmail.com>\n"
 "Language-Team: Lithuanian <https://translations.metabrainz.org/projects/"
 "musicbrainz/instruments/lt/>\n"
@@ -67,7 +67,7 @@ msgstr "Kretos lyra"
 
 #: DB:instrument/name:736
 msgid "Cristal Baschet"
-msgstr "Cristal Baschet"
+msgstr "Kristalė Bašė"
 
 #: DB:instrument/name:118
 msgid "Denis d'or"
