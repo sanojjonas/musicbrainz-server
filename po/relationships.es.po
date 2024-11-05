@@ -10563,14 +10563,6 @@ msgid "{additional} liner notes {translator}"
 msgstr ""
 "{translator:traductor|escritor} {additional:adicional} de notas de álbum"
 
-#. name:liner notes
-#: DB:link_type/link_phrase:24
-#, fuzzy
-#| msgid "{additional} liner notes {translator}"
-msgid "{additional} liner notes {translator} for"
-msgstr ""
-"{translator:traductor|escritor} {additional:adicional} de notas de álbum"
-
 #. name:lyricist
 #: DB:link_type/reverse_link_phrase:56 DB:link_type/reverse_link_phrase:165
 msgid "{additional} lyricist"
