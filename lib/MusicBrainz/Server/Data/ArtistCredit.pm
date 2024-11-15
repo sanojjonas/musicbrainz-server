@@ -80,6 +80,11 @@ sub load
 {
     my ($self, @objs) = @_;
     load_subobjects($self, 'artist_credit', @objs);
+    my @artists = map { $_->can('artist_credit')
+        ? map { $_->artist } $_->artist_credit->all_names
+        : (),
+    } @objs;
+    $self->c->model('Artist')->load_aliases(@artists);
 }
 
 sub find_by_ids
