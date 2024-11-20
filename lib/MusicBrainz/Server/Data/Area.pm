@@ -86,6 +86,12 @@ sub load
 {
     my ($self, @objs) = @_;
     load_subobjects($self, ['area', 'begin_area', 'end_area', 'country'], @objs);
+    my @areas = map {
+        ($_->can('area') && $_->area ? $_->area : ()),
+        ($_->can('begin_area') && $_->begin_area ? $_->begin_area : ()),
+        ($_->can('end_area') && $_->end_area ? $_->end_area : ()),
+    } @objs;
+    $self->c->model('Area')->load_aliases(@areas);
 }
 
 sub load_containment {
@@ -111,6 +117,8 @@ sub load_containment {
     my $parent_areas = $self->get_by_ids(
         map { $_->{parent} } @results,
     );
+
+    $self->c->model('Area')->load_aliases(values %$parent_areas);
 
     for my $area (@areas) {
         my @parent_ids = map {
